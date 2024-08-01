@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_black"
+    tools:context="com.yxy.www.mtgame2019_20.MainGame"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="542dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="73dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/biaoti" />
+
+    <com.yxy.www.mtgame2019_20.LoadingClass
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/loading" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="131dp"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+
+        <Button
+            android:id="@+id/Start001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Start001"
+            android:text="进入魔塔" />
+
+        <Button
+            android:id="@+id/Start002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Start002"
+            android:text="退出" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

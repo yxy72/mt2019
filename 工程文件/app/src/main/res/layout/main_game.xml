@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yxy.www.mtgame2019_20.MainGame"
+    tools:layout_editor_absoluteY="25dp"
+    android:background="@drawable/background_black"
+    tools:ignore="ExtraText"
+    >
+
+
+
+    <com.yxy.www.mtgame2019_20.BackGround
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/background"/>
+    <!--<ImageView-->
+        <!--android:id="@+id/player"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--/>-->
+
+    <com.yxy.www.mtgame2019_20.Player
+        android:id="@+id/player"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        />
+
+
+    <com.yxy.www.mtgame2019_20.staticEventOnDraw
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/staticEvent"/>
+    <com.yxy.www.mtgame2019_20.Cover
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/cover1"/>
+
+    <com.yxy.www.mtgame2019_20.ShiningEvent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/monsNpc"/>
+    <com.yxy.www.mtgame2019_20.informationView
+        android:id="@+id/infWINDOW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <com.yxy.www.mtgame2019_20.ToolsTouch
+        android:id="@+id/toolsTouch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+
+    <com.yxy.www.mtgame2019_20.SuperButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/move"/>
+
+
+
+
+
+
+
+    <com.yxy.www.mtgame2019_20.doorFlash
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doorFlasher"/>
+
+
+
+
+
+
+
+    <com.yxy.www.mtgame2019_20.Dialog
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:id="@+id/dialog"/>
+    <com.yxy.www.mtgame2019_20.Dialog
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/superDialog"
+        android:visibility="gone"
+        />
+    <com.yxy.www.mtgame2019_20.AllShop
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:id="@+id/shop_3f"/>
+    <com.yxy.www.mtgame2019_20.AllShop
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:id="@+id/smithy_4f"/>
+    <com.yxy.www.mtgame2019_20.AllMerchantShop
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:id="@+id/merchant"/>
+
+    <com.yxy.www.mtgame2019_20.Dialog
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/musicSwitch"/>
+
+    <com.yxy.www.mtgame2019_20.GoldMine
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:id="@+id/goldMine1"/>
+
+
+
+
+    <com.yxy.www.mtgame2019_20.messageBGD
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/messageBGD"/>
+        />
+    <com.yxy.www.mtgame2019_20.messageBGD
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/fcBGD"/>
+    />
+    <com.yxy.www.mtgame2019_20.FloorChange
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:id="@+id/floorChange"/>
+    <com.yxy.www.mtgame2019_20.notice_window
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:id="@+id/notice111"/>
+    <com.yxy.www.mtgame2019_20.ToolsBag
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:id="@+id/toolbag"/>
+
+        />
+
+
+
+    <com.yxy.www.mtgame2019_20.MonsterInformation
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+
+        android:id="@+id/handbook"
+
+        />
+    <com.yxy.www.mtgame2019_20.SpecialNotice
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+
+        android:id="@+id/spNotice"
+
+        />
+    <com.yxy.www.mtgame2019_20.Menu
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/menu"
+        />
+</FrameLayout>
